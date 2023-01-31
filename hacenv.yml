@@ -1,0 +1,11 @@
+name: mae
+dependencies:
+    - python=3.8
+    - pip
+    - pip:
+      - moreh-driver==23.1.2
+      - torch==1.7.1+cu110.moreh23.1.2
+      - numpy<1.24                      # in order to use the deprecated `np.float`
+      - torchvision
+      - timm==0.3.2
+      - tensorboard
