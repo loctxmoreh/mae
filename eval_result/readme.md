@@ -34,3 +34,7 @@ python3 main_finetune.py --eval \
 On HAC with SDA `Medium.128GB`:
 - `pretrain-medium128-imnet100cls-2-5.log`
 - `eval-medium128-imnet100cls-2-5.log`
+
+On A100 machine:
+- `pretrain-a100-imnet100cls-2-5.log`
+- `eval-a100-imnet100cls-2-5.log`
